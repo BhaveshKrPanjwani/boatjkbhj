@@ -1,0 +1,253 @@
+*{
+margin: 0;
+padding: 0;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav{
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: rgb(59, 59, 59,0.9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.left{
+    /* border: 2px solid rgb(224, 21, 21); */
+    display: flex;
+    flex-direction: column;
+}
+.mid{
+    /* border: 2px solid rgb(74, 0, 0); */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 18px;
+    align-items: center;
+}
+.right{
+    /* border: 2px solid rgb(36, 195, 231); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+   width: 23%;
+
+}
+.bar{
+    align-items: center;
+}
+.search-bar{
+    height: 40px;
+    background-color: rgb(225, 227, 225);
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+}
+.wrapper {
+    max-height: 900px;
+    display: flex;
+    overflow-x: auto;
+    /* border: 2px solid black; */
+}
+.wrapper .item {
+    min-width: 700px;
+    min-height: 10 00px;
+    flex-shrink: 0; 
+    background-color: beige;
+}
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+.swiper{
+    width: 1525px;
+}
+.best-sellers
+{
+    height:350px ;   
+}
+h2{
+    margin: 18px;
+    padding: 10px;
+}
+.item img
+{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.item img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.bs-cards{
+   
+    width: 100%;
+    height:370px;
+    display: flex;
+    overflow-x: auto;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    margin: 15px;
+}
+.bs-card{ 
+    background-size: cover;
+    height: 350px;
+    row-gap: 10px;
+    flex-shrink: 0;
+    background-color: beige;
+    /* align-items: center; */
+}
+.bs-card p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bs-card video{
+    height: 100%;
+    width: 100%;
+}
+.daily-cards{
+    display: grid;
+    width: 1500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    /* grid-row: 1fr 1fr 1fr 1fr; */
+    /* column-gap: 20px; */
+  /* border:2px solid blue; */
+  height: 400px;
+}
+.daily-card
+{
+border-radius: 15px;
+/* background-color: blueviolet; */
+margin: 17px;
+column-gap: 20px;
+height: 400px;
+width: 330px;
+overflow: hidden;
+}
+.lower
+{   background-color: azure;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.daily-l-right{
+    font-weight: 500;
+    /* background-color: rgb(41, 41, 41); */
+    /* border: 2px solid red; */
+    padding: 15px;
+}
+.daily-l-right button{
+    font-weight: 500;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 18px;
+    border-radius: 15px;
+    border: none;
+}
+.upper img{
+background-size: cover;
+height: 330px;
+width: 330px;
+}
+.lifestyle-cards{
+  display: grid;
+  width: 1550px;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  /* border:2px solid blue; */
+  height: 600px;
+  margin: 15px;
+}
+
+.lifestyle-card
+{
+    border-radius: 15px;
+    column-gap: 20px;
+    height: 600px;
+    width: 340px;
+    overflow: hidden;
+}
+.lifestyle-upper img
+{
+    background-size: cover;
+    height: 500px;
+    width: 340px;
+}
+.lifestyle-lower{
+    text-align: center;
+    padding: 30px;
+    /* border: 2px solid black; */
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.tribe-card
+{
+    width: 1800px;
+    height: 600px;
+    overflow-x:auto;
+    scrollbar-color: #ccc transparent;
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 20px;
+}
+
+.vd
+{
+    height: 600px;
+    row-gap: 20px;
+    width: 500px;
+    /* border: 2px solid rgb(61, 189, 15); */
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.vd video
+{
+    height: 450px;
+    row-gap: 20px;  
+}
+h3
+{
+    margin-bottom: 25px;
+}
+.bold
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+.light
+{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.green
+{
+    font-size: 18px;
+    color: rgb(22, 207, 22);
+}
+.tribe-card::-webkit-scrollbar
+  {
+    width: 0;
+  } 
+p1{
+    font-size: 18px;
+    font-weight: 600;
+  }

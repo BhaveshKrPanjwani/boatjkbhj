@@ -1,0 +1,81 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .wrapper {
+            max-height: 100px;
+            display: flex;
+            overflow-x: auto;
+            border: 2px solid black;
+        }
+        .wrapper .item {
+            min-width: 300px;
+            flex-shrink: 0; /* Prevent items from shrinking */
+            background-color: beige;
+        }
+        /* Hide scrollbar in WebKit browsers */
+        .wrapper::-webkit-scrollbar {
+            width: 0;
+            /* height: 0; */
+        }
+        .swiper{
+            width: 950px;
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper mySwiper wrapper">
+    <div class="swiper-wrapper">
+        <div  class="swiper-slide item">box1</div>
+        <div class="swiper-slide item">box2</div>
+        <div class="swiper-slide item">box3</div>
+        <div class="swiper-slide item">box4</div>
+        <div class="swiper-slide item">box5</div>
+        <div class="swiper-slide item">box6</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .scroll-container {
+      width: 300px;
+      height: 200px;
+      overflow-y: scroll;
+      scrollbar-width: thin;
+      scrollbar-color: #ccc transparent;
+    }
+
+    .scroll-container::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    .scroll-container::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="scroll-container">
+  <!-- Your content goes here -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quod facere distinctio culpa asperiores doloribus perferendis rerum ad voluptatibus totam non voluptate vitae placeat libero est reprehenderit quas officiis magnam. ...</p>
+</div>
+
+</body>
+</html>
